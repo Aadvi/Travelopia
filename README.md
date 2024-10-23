@@ -1,8 +1,7 @@
 # Tech Stack
-
--TypeScript
--React
--ChakraUI (frontend library)
+`TypeScript`
+`React`
+`ChakraUI (frontend library)`
 
 # Getting Started with Create React App
 
