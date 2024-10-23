@@ -8,9 +8,11 @@ import {
   Link as ChakraLink,
   Button,
   Stack,
+  Input,
 } from "@chakra-ui/react";
+import { queries } from "@testing-library/react";
 
-import React from "react";
+import React, { useState } from "react";
 
 import { Link } from "react-router-dom";
 
@@ -37,7 +39,7 @@ const Navbar: React.FC = () => {
           <HStack spacing={8} alignItems="center">
             <ChakraLink as={Link} to="/" _hover={{ textDecoration: "none" }}>
               <Box fontSize="xl" fontWeight="bold" color="white">
-                TrackOn
+                Travelopia
               </Box>
             </ChakraLink>
 
