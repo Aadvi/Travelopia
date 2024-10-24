@@ -90,7 +90,10 @@ const FlightTable: React.FC = () => {
               <ChakraLink
                 as={Link}
                 to={`/flight/${flight.id}`}
-                bg="#33899f"
+                px={2}
+                py={1}
+                rounded="md"
+                bg="#459db3"
                 fontWeight="bold"
               >
                 View Details
@@ -124,6 +127,19 @@ const FlightTable: React.FC = () => {
                   <Td>{flight.destination}</Td>
                   <Td>{flight.departureTime}</Td>
                   <Td>{flight.status}</Td>
+                  <Td>
+                    <ChakraLink
+                      as={Link}
+                      to={`/flight/${flight.id}`}
+                      px={2}
+                      py={1}
+                      rounded="md"
+                      bg="#459db3"
+                      fontWeight="bold"
+                    >
+                      View Details
+                    </ChakraLink>
+                  </Td>
                 </Tr>
               ))}
             </Tbody>

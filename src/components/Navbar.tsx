@@ -10,7 +10,6 @@ import {
   Stack,
   Input,
 } from "@chakra-ui/react";
-import { queries } from "@testing-library/react";
 
 import React, { useState } from "react";
 
