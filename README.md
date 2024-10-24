@@ -4,6 +4,8 @@
  Travelopia is a web-based application to track flights status. It is built using `React + Typescript`, provides all the necessary details related to flight such as Airline Number, origin, destination, Time, status. `Chakra UI` is used for the component user will see on UI.
 
  ## Presentation
+ <a href="https://youtu.be/ZKKcBcCgdS8](https://youtu.be/n_eYGgm74UY">Project
+presentation video</a>
 
  ## Installation and Usage
 
